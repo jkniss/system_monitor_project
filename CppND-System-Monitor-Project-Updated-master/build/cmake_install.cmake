@@ -1,4 +1,4 @@
-# Install script for directory: /data/raptor_users/jkniss/sandbox/CppND-System-Monitor-Project-Updated-master
+# Install script for directory: /home/jkniss/code/system_monitor_project/CppND-System-Monitor-Project-Updated-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/bin/objdump")
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/data/raptor_users/jkniss/sandbox/CppND-System-Monitor-Project-Updated-master/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jkniss/code/system_monitor_project/CppND-System-Monitor-Project-Updated-master/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
